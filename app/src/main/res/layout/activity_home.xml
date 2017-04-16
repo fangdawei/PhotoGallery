@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/pg_photos"
+        android:background="#ff000000"
+        />
+    <com.david.photogallery.widget.PhotoGallery
+        android:id="@+id/pg_photos"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:clipChildren="false"
+        android:background="#ffffff"
+        android:paddingBottom="1dp"
+        android:paddingTop="1dp"
+        app:Photo_margin="1dp"
+        app:Photo_max="20"
+        app:photo_height="60dp"
+        app:photo_width="40dp"
+        >
+    </com.david.photogallery.widget.PhotoGallery>
+  </RelativeLayout>
+</layout>
