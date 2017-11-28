@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/pg_photos"
-        android:background="#ff000000"
+        android:background="#ffffff"
         />
     <com.david.photogallery.widget.PhotoGallery
         android:id="@+id/pg_photos"
